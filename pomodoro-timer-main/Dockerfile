@@ -11,7 +11,7 @@ RUN rm -rf ./*
 COPY . .
 
 # Expose port 80 for the container
-EXPOSE 80
+EXPOSE 2222
 
 # Start Nginx when the container runs
 CMD ["nginx", "-g", "daemon off;"]
